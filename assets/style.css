@@ -20,11 +20,6 @@ body {
 	align-items: center;
 }
 
-.top-header nav img{
-	width: 20px;
-	height: 20px;
-} 
-
 .top-header .name {
 	font-size: 26px;
 }
@@ -47,6 +42,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -100,10 +96,6 @@ body {
 .about-me__p {
 	width: 80%;
 	font-size: 14px;
-}
-
-#gallery {
-	/*	min-height: 100vh; */
 }
 
 .title {
