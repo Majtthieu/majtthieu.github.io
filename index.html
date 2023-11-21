@@ -6,22 +6,29 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- lien vers Bootstrap CDN pour le fichier CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
-	<meta charset="UTF-8">
-	<!-- lien vers Bootstrap CDN pour le fichier JavaScript -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
 	<title>Nina Carducci - Photographe</title>
-	<meta name="description" content="Découvrez l'univers captivant de Nina Carducci, photographe passionnée. Chaque cliché immortalise des moments uniques, capturant l'essence des émotions, des lieux et des lumières.">
+	<meta name="description"
+		content="Découvrez l'univers captivant de Nina Carducci, photographe passionnée. Chaque cliché immortalise des moments uniques, capturant l'essence des émotions, des lieux et des lumières.">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@monCompteTwitter" />
+	<meta name="twitter:title" content="MonSiteWeb - Plein d'articles géniaux" />
+	<meta name="twitter:description" content="Découvrez plein d'articles qui vont vous plaire. C'est certain !" />
+	<meta name="twitter:image" content="https://monsiteweb/images/uneimage.jpg" />
+	<meta name="twitter:url" content="http://monsiteweb.fr/ma-page-qui-dechire" />
+	<meta property="og:site_name" content="MonSiteWeb" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://monsiteweb.fr/ma-page-qui-dechire" />
+	<meta property="og:title" content="MonSiteWeb - Plein d'articles géniaux" />
+	<meta property="og:description" content="Découvrez plein d'articles qui vont vous plaire. C'est certain !" />
+	<meta property="og:image" content="https://monsiteweb/images/uneimage.jpg" />
 </head>
 
 <body>
@@ -54,17 +61,17 @@
 					<div class="carousel-item active">
 						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_1920.webp"
 							srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_1920.webp 1920w, ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_1180.webp 1180w, ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_650.webp 650w"
-							class="d-block w-100" width="1920" height="888" alt="un homme traversant la rue">
+							class="d-block w-100 h-auto" width="1920" height="888" alt="un homme traversant la rue">
 					</div>
 					<div class="carousel-item">
 						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash_1920.webp"
 							srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash_1920.webp 1920w, ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash_1180.webp 1180w, ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash_650.webp 650w"
-							class="d-block w-100" width="1920" height="888" alt="la foule d'un concert">
+							class="d-block w-100 h-auto" width="1920" height="888" alt="la foule d'un concert">
 					</div>
 					<div class="carousel-item">
 						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_1920.webp"
 							srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_1920.webp 1920w, ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_1180.webp 1180w, ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_650.webp 650w"
-							class="d-block w-100" width="1920" height="887" alt="un marié embrassant la mariée">
+							class="d-block w-100 h-auto" width="1920" height="887" alt="un marié embrassant la mariée">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -101,23 +108,32 @@
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
 					<img data-gallery-tag="Concert" class="gallery-item"
-						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="l'ambiance d'un concert" loading="lazy" />
+						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
+						alt="l'ambiance d'un concert" loading="lazy" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
-						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="un homme d'affaires" loading="lazy" />
+						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
+						alt="un homme d'affaires" loading="lazy" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
-						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="une réunion de travail dans la bonne humeur" loading="lazy" />
+						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
+						alt="une réunion de travail dans la bonne humeur" loading="lazy" />
 					<img data-gallery-tag="Mariages" class="gallery-item"
-						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="photo symbolique des mains des mariés" loading="lazy" />
+						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
+						alt="photo symbolique des mains des mariés" loading="lazy" />
 					<img data-gallery-tag="Portrait" class="gallery-item"
-						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="portrait d'un homme aux yeux fermés" loading="lazy" />
+						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
+						alt="portrait d'un homme aux yeux fermés" loading="lazy" />
 					<img data-gallery-tag="Mariages" class="gallery-item"
-						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="photo de mariés complices" loading="lazy" />
+						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
+						alt="photo de mariés complices" loading="lazy" />
 					<img data-gallery-tag="Portrait" class="gallery-item"
-						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="portrait d'une personne à lunettes" loading="lazy" />
+						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
+						alt="portrait d'une personne à lunettes" loading="lazy" />
 					<img data-gallery-tag="Concert" class="gallery-item"
-						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="un chanteur lors d'un concert" loading="lazy" />
+						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
+						alt="un chanteur lors d'un concert" loading="lazy" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
-						src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="une femme souriante devant son pc" loading="lazy" />
+						src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
+						alt="une femme souriante devant son pc" loading="lazy" />
 				</div>
 			</div>
 			<div class="quote">
@@ -196,11 +212,20 @@
 					</form>
 				</div>
 				<div class="picture right">
-					<img src="./assets/images/camera.webp" width="560" height="559" alt="un appareil photo" loading="lazy" />
+					<img src="./assets/images/camera.webp" width="560" height="559" alt="un appareil photo"
+						loading="lazy" />
 				</div>
 			</div>
 		</section>
 	</main>
+	<!-- lien vers Bootstrap CDN pour le fichier JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="./assets/maugallery.js"></script>
+	<script src="./assets/scripts.js"></script>
 </body>
 
 </html>
